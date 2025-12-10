@@ -147,3 +147,87 @@ button {
 .vigneta:active {
     transform: scale(0.95);
 }
+
+/* 📱 RESPONSIVE PARA CELULAR */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+        height: auto;
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .foto {
+        width: 140px;
+    }
+
+    .title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .typewriter {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    /* Viñetas más grandes y amigables al tacto */
+    .vignetas {
+        gap: 12px;
+    }
+
+    .vigneta {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    /* Modal ocupa más pantalla */
+    .modal-content {
+        width: 90%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    .modal-img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .cerrar {
+        font-size: 26px;
+    }
+}
+
+/* 📱 Pantallas MUY pequeñas */
+@media (max-width: 380px) {
+
+    .title {
+        font-size: 20px;
+    }
+
+    .typewriter {
+        font-size: 15px;
+    }
+
+    .vigneta {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .modal-img {
+        max-height: 200px;
+    }
+}
