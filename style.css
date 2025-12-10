@@ -1,12 +1,11 @@
 body {
     background: #ffe4ec;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     text-align: center;
     padding: 20px;
+    min-height: 100vh;
+    display: block;
+    overflow-x: hidden;
 }
 
 .container {

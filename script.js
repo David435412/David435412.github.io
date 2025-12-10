@@ -58,6 +58,11 @@ function activarMusica() {
     musica.play().catch(() => {}); 
 }
 
+function iniciarTodo() {
+    activarMusica();
+    mostrarCarta();
+}
+
 function crearCorazon() {
     const corazon = document.createElement("div");
     corazon.classList.add("corazon");
