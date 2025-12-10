@@ -148,6 +148,20 @@ button {
     transform: scale(0.95);
 }
 
+.corazon {
+    position: fixed;
+    color: red;
+    font-size: 24px;
+    animation: flotar 4s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-150px); opacity: 0; }
+}
+
+
 /* 📱 RESPONSIVE PARA CELULAR */
 @media (max-width: 600px) {
 
@@ -231,3 +245,5 @@ button {
         max-height: 200px;
     }
 }
+
+

@@ -47,5 +47,26 @@ function cerrarModal(num) {
         modal.classList.remove("visible");
     }, 250); // coincide con la animación
 }
+// Activar música al primer clic
+function activarMusica() {
+    const musica = document.getElementById("musica");
+    musica.volume = 0.6; // volumen suave
+    musica.play().catch(() => {}); 
+}
+
+function crearCorazon() {
+    const corazon = document.createElement("div");
+    corazon.classList.add("corazon");
+    corazon.innerHTML = "❤️";
+    corazon.style.left = Math.random() * 90 + "vw";
+    corazon.style.bottom = "0px";
+    document.body.appendChild(corazon);
+
+    setTimeout(() => corazon.remove(), 4000);
+}
+
+// cada 700ms aparece uno
+setInterval(crearCorazon, 700);
+
 
 
