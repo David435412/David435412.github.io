@@ -14,7 +14,11 @@ Te quiero muchísimo ❤️
 
 let i = 0;
 
+const audio = document.getElementById("musica");
+
+
 function mostrarCarta() {
+    audio.play();
     const elemento = document.getElementById("mensaje");
     elemento.innerHTML = "";
     i = 0;
