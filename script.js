@@ -1,6 +1,6 @@
 const texto = `
 Hoy quiero empezar tu cumpleaños recordándote lo muchísimo que significas para mí.
-Aunque hoy no podamos vernos tanto como quisiera, quiero que sepas que estoy pensando en ti todo el tiempo y que le agradezco a la vida por haberme puesto en tu camino.
+Aunque hoy no podamos vernos tanto como quisiera (Ahora si nos vamos a ver porque me moche un dedo JSAJSAJ), quiero que sepas que estoy pensando en ti todo el tiempo y que le agradezco a la vida por haberme puesto en tu camino.
 
 Eres mi primera experiencia en el amor, y estoy seguro de que también serás la última. Gracias por existir, por alegrarme los días y por mandarme fotos de esos ojitos que tanto me encantan.
 
